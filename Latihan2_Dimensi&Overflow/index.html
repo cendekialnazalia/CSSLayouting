@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dimensi & Overflow</title>
+    <style>
+      .satu {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+      }
+      .dua {
+        width: 120%;
+        background-color: aqua;
+      }
+      .tiga {
+        width: 100%;
+        height: 200px;
+        background-color: lightgreen;
+      }
+      .empat {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        /* beda scroll dan auto jika kontennya cukup di auto scrollnya hilang, kalo di scroll bakal tetep ada */
+        overflow: auto;
+      }
+      .lima {
+        width: 200px;
+        height: 200px;
+        background-color: lightcoral;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="satu">
+      <div class="dua">Hello World</div>
+    </div>
+    <div class="tiga">Hello World</div>
+    <div class="empat">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt animi
+      nisi optio maiores harum perspiciatis. Debitis reiciendis vel nulla esse.
+      Adipisci quia consequatur ducimus corrupti enim facere sint minima minus.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic accusamus,
+      obcaecati dolore sequi nemo dignissimos nesciunt dolor unde mollitia
+      veritatis! Atque deleniti veniam unde ut reprehenderit maxime tempora nisi
+      recusandae.
+    </div>
+    <div class="lima">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt animi
+      nisi optio maiores harum perspiciatis. Debitis reiciendis vel nulla esse.
+      Adipisci quia consequatur ducimus corrupti enim facere sint minima minus.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic accusamus,
+      obcaecati dolore sequi nemo dignissimos nesciunt dolor unde mollitia
+      veritatis! Atque deleniti veniam unde ut reprehenderit maxime tempora nisi
+      recusandae.
+    </div>
+  </body>
+</html>
