@@ -1,0 +1,37 @@
+.satu {
+  width: 200px;
+  height: 200px;
+  /* shorthand value pertama untuk atas dan bawah, value kedua untuk kiri dan kanan */
+  /* margin: 50px 100px; */
+  /* shorthand 3 value {atas,kiri & kanan, bawah} */
+  /* margin: 40px 50px 60px; */
+  /* shorthand 4 value {atas,kanan, bawah, kiri} */
+  margin: 40px 50px 60px 100px;
+  background-color: lightgreen;
+  /* margin-right: 0px;
+  margin-bottom: 30px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.dua {
+  width: 100px;
+  height: 100px;
+  /* ini bisa kalo mau taro ditengah-tengah pake auto */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin itu tidak saling menambahkan jika dia overlapping pada area vertikal. DIa kaan mengambil niali terbesar.ann */
+  background-color: lightblue;
+  /* negatif bisa menggeser dia ke kiri atau ke atas */
+  /* margin-top: -50px;
+  margin-left: -150px; */
+}
+
+.tiga {
+  /* margin-left: auto;
+  margin-right: auto; */
+  background-color: violet;
+  /* kalo margin horizontal maka jika manmbahkan maka kduany aakn bertambah*/
+  width: 50px;
+  height: 50px;
+}
