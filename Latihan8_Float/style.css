@@ -6,7 +6,11 @@
 }
 /* text mengelilingi gambar */
 img {
-  float: right;
+  float: left;
   margin: 5px;
   width: 30%;
+}
+
+.clear {
+  clear: left;
 }
